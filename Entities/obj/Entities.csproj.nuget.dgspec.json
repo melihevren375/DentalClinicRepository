@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Casper\\source\\repos\\DentalClinicApp\\Entities\\Entities.csproj": {}
+    "C:\\Users\\Casper\\Desktop\\Eğitim\\CBU\\DentalClinicApp\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Casper\\source\\repos\\DentalClinicApp\\Entities\\Entities.csproj": {
+    "C:\\Users\\Casper\\Desktop\\Eğitim\\CBU\\DentalClinicApp\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Casper\\source\\repos\\DentalClinicApp\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Casper\\Desktop\\Eğitim\\CBU\\DentalClinicApp\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\Casper\\source\\repos\\DentalClinicApp\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\Casper\\Desktop\\Eğitim\\CBU\\DentalClinicApp\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\Casper\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Casper\\source\\repos\\DentalClinicApp\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\Casper\\Desktop\\Eğitim\\CBU\\DentalClinicApp\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

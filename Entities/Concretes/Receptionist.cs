@@ -1,5 +1,5 @@
 ﻿namespace Entities.Concretes;
 
-public class Receptionist:Entity
+public class Receptionist:Employee
 {
 }
