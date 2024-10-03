@@ -16,4 +16,7 @@ public abstract class RequestParams
 
     public string? Fields { get; set; }
 
+    public DateTime? MaxCreatedDate { get; set; }
+
+    public DateTime? MinCreatedDate { get; set; }
 }
