@@ -8,4 +8,5 @@ public class Invoice:Entity
     public bool IsPaid { get; set; }
     public string? Notes { get; set; }
     public Patient Patient { get; set; }
+    public List<Payment> Payments { get; set; }
 }

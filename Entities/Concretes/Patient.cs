@@ -9,6 +9,5 @@ public class Patient:Entity
     public bool IsActive { get; set; }
     public List<Appointment>? Appointments { get; set; }
     public List<Invoice>? Invoices { get; set; }
-    public List<Payment>? Payments { get; set; }
     public List<Treatment>? Treatments { get; set; }
 }

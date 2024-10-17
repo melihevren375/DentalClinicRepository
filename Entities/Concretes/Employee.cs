@@ -8,4 +8,5 @@ public abstract class Employee:Entity
     public DateTime DateOfBirth { get; set; }
     public bool IsActive { get; set; }
     public Guid EmployeeTypeId { get; set; }
+    public EmployeeType EmployeeType { get; set; }
 }

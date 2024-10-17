@@ -9,7 +9,7 @@ public interface IBaseRepository<T>
 {
     IQueryable<T> GetEntities(RequestParams requestParams);
     IQueryable<T> GetEntitiesByCondition(Expression<Func<T, bool>> expression, bool trackChanges);
-    void CreateEntity(T entity);
-    void UpdateEntity(T entity);
-    void DeleteEntity(T entity);
+    Task CreateEntityAsync(T entity);
+    Task UpdateEntityAsync(T entity);
+    Task DeleteEntityAsync(T entity);
 }

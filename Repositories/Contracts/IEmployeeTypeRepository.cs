@@ -7,8 +7,8 @@ namespace Repositories.Contracts;
 public interface IEmployeeTypeRepository : IBaseRepository<EmployeeType>
 {
     Task<PagedList<EmployeeType>> GetEmployeeTypesAsync(EmployeeTypeParams employeeTypeParams);
-    Task<EmployeeType> GetEmployeeTypeByConditionAsync(Expression<Func<EmployeeType, bool>> expression);
-    void CreateEmployeeTypeAsync(EmployeeType employeeType);
-    void DeleteEmployeeTypeAsync(EmployeeType employeeType);
-    void UpdateEmployeeTypeAsync(EmployeeType employeeType);
+    Task<EmployeeType> GetEmployeeTypeByConditionAsync(Expression<Func<EmployeeType, bool>> expression,bool trackChanges);
+    Task CreateEmployeeTypeAsync(EmployeeType employeeType);
+    Task DeleteEmployeeTypeAsync(EmployeeType employeeType);
+    Task UpdateEmployeeTypeAsync(EmployeeType employeeType);
 }

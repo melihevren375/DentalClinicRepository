@@ -10,12 +10,12 @@ public record PatientDtoForInsertion:PatientDtoForManipulation
     public new Guid Id { get; init; }
 
     [Required(ErrorMessage = "First Name is a required field. It cannot be empty.")]
-    [StringLength(100, ErrorMessage = "First Name cannot exceed 100 characters.")]
+    [StringLength(100,MinimumLength =2 ,ErrorMessage = "First Name cannot exceed 100 characters.")]
     [RegularExpression(@"^[a-zA-Z]+$", ErrorMessage = "FirstName must contain only letters.")]
     public string FirstName { get; set; }
 
     [Required(ErrorMessage = "LastName is a required field. It cannot be empty.")]
-    [StringLength(100, ErrorMessage = "LastName cannot exceed 100 characters.")]
+    [StringLength(100,MinimumLength =2, ErrorMessage = "LastName cannot exceed 100 characters.")]
     [RegularExpression(@"^[a-zA-Z]+$", ErrorMessage = "LastName must contain only letters.")]
     public string LastName { get; set; }
 

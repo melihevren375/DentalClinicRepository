@@ -1,6 +1,6 @@
 ﻿namespace Entities.Concretes;
 
-public class TreatmentDetails:Entity
+public class TreatmentDetail:Entity
 {
     public Guid TreatmentId { get; set; }
     public Guid TreatmentTypeId { get; set; }

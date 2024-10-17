@@ -5,7 +5,7 @@ namespace Entities.DataTransferObjects.EmployeeTypeDtos;
 public record EmployeeTypeDtoForRead : EmployeeTypeDtoForManipulation
 {
     [Required(ErrorMessage = "Name is a required field. It cannot be empty.")]
-    [StringLength(100, ErrorMessage = "Name cannot exceed 100 characters.")]
+    [StringLength(100, MinimumLength = 2, ErrorMessage = "Name cannot exceed 100 characters.")]
     public string Name { get; init; }
 
     [Required(ErrorMessage = "CreatedDate is a required field. It cannot be empty.")]

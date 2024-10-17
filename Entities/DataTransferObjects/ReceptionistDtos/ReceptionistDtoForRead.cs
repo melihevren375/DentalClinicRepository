@@ -5,11 +5,11 @@ namespace Entities.DataTransferObjects.ReceptionistDtos;
 public record ReceptionistDtoForRead:ReceptionistDtoForManipulation
 {
     [Required(ErrorMessage = "First Name is a required field. It cannot be empty.")]
-    [StringLength(100, ErrorMessage = "First Name cannot exceed 100 characters.")]
+    [StringLength(100, MinimumLength = 2, ErrorMessage = "First Name cannot exceed 100 characters.")]
     public string FirstName { get; init; }
 
     [Required(ErrorMessage = "Last Name is a required field. It cannot be empty.")]
-    [StringLength(100, ErrorMessage = "Last Name cannot exceed 100 characters.")]
+    [StringLength(100, MinimumLength = 2, ErrorMessage = "Last Name cannot exceed 100 characters.")]
     public string LastName { get; init; }
 
     [Required(ErrorMessage = "Phone Number is a required field. It cannot be empty.")]
