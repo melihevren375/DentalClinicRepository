@@ -18,7 +18,7 @@ public class PagedList<T> : List<T>
         AddRange(source);
     }
 
-    MetaData MetaData { get; set; }
+    public MetaData MetaData { get; set; }
 
     public static PagedList<T> ToPagedList(IEnumerable<T> source, int pageNumber, int pageSize)
     {
