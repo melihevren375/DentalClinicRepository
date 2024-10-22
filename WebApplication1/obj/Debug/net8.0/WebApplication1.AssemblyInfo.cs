@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Repositories")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("WebApplication1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+222afa762dad37714ea1202c7d78a91db7629f45")]
-[assembly: System.Reflection.AssemblyProductAttribute("Repositories")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Repositories")]
+[assembly: System.Reflection.AssemblyProductAttribute("WebApplication1")]
+[assembly: System.Reflection.AssemblyTitleAttribute("WebApplication1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // MSBuild WriteCodeFragment sınıfı tarafından oluşturuldu.
