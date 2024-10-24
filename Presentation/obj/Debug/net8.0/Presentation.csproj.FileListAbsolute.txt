@@ -1,0 +1,6 @@
+C:\Users\Casper\Desktop\Eğitim\CBU\DentalClinicApp\Presentation\obj\Debug\net8.0\Presentation.csproj.AssemblyReference.cache
+C:\Users\Casper\Desktop\Eğitim\CBU\DentalClinicApp\Presentation\obj\Debug\net8.0\Presentation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Casper\Desktop\Eğitim\CBU\DentalClinicApp\Presentation\obj\Debug\net8.0\Presentation.AssemblyInfoInputs.cache
+C:\Users\Casper\Desktop\Eğitim\CBU\DentalClinicApp\Presentation\obj\Debug\net8.0\Presentation.AssemblyInfo.cs
+C:\Users\Casper\Desktop\Eğitim\CBU\DentalClinicApp\Presentation\obj\Debug\net8.0\Presentation.csproj.CoreCompileInputs.cache
+C:\Users\Casper\Desktop\Eğitim\CBU\DentalClinicApp\Presentation\obj\Debug\net8.0\Presentation.sourcelink.json
